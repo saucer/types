@@ -1,0 +1,8 @@
+{
+    "name": "@saucer-dev/types",
+    "version": "1.0.0",
+    "types": "./index.d.ts",
+    "devDependencies": {
+        "dprint": "^0.47.2"
+    }
+}
