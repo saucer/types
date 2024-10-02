@@ -23,8 +23,8 @@ This project hosts the source code of the typescript typings.
 
 <img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg" height=20/><br/>
 [Available from npm](https://www.npmjs.com/package/@saucer-dev/types) <br/>
-<code>sudo npm i @saucer-dev/types</code>
-<code>sudo pnpm i @saucer-dev/types</code>
-<code>sudo yarn add @saucer-dev/types</code>
+<code>npm i @saucer-dev/types</code>
+<code>pnpm i @saucer-dev/types</code>
+<code>yarn add @saucer-dev/types</code>
 
 </div>
