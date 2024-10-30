@@ -10,12 +10,6 @@
 
 ---
 
-<div align="center"> 
-
-This project hosts the source code of the typescript typings.  
-
-</div> 
-
 
 ## Installation
 
