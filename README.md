@@ -5,7 +5,7 @@
 </div>
 
 <p align="center"> 
-    Build cross-platform desktop apps with C++ & Web Technologies
+    TypeScript declarations for <a href="https://github.com/saucer/saucer">saucer</a>
 </p>
 
 ---
