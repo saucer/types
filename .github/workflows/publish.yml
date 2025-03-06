@@ -1,0 +1,35 @@
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "*"
+
+name: 🚀 Publish Package
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v3
+
+      - name: 🍃 Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: "https://registry.npmjs.org"
+
+      - name: 🍃 Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: false
+
+      - name: 🔨 Build
+        run: "pnpm install && pnpm run bundle:executable"
+
+      - name: 🛒 Publish
+        run: pnpm publish --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
