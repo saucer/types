@@ -1,11 +1,11 @@
 {
     "name": "@saucer-dev/types",
     "description": "✍️ TypeScript declarations for saucer",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "author": "Curve (https://github.com/Curve)",
     "homepage": "https://github.com/saucer/types",
-    "types": "./src/index.d.ts",
+    "types": "./index.d.ts",
     "bugs": {
         "url": "https://github.com/saucer/types/issues"
     },
