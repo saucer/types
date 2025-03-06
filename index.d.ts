@@ -13,6 +13,14 @@ declare global
     saucer: {
       windowEdge: WindowEdge;
 
+      minimized: () => Promise<boolean>;
+      maximized: () => Promise<boolean>;
+
+      close: () => Promise<void>;
+
+      minimize: (value: boolean) => Promise<void>;
+      maximize: (value: boolean) => Promise<void>;
+
       startDrag: () => Promise<void>;
       startResize: (edge: WindowEdge) => Promise<void>;
 
