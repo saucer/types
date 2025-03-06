@@ -26,9 +26,6 @@ jobs:
           version: 8
           run_install: false
 
-      - name: 🔨 Build
-        run: "pnpm install && pnpm run bundle:executable"
-
       - name: 🛒 Publish
         run: pnpm publish --no-git-checks
         env:
